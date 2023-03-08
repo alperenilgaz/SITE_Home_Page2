@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">contact</a></li>
+
+        </ul>
+    </header>
+    <section class="parallax">
+        <h2 id="text">anka website</h2>
+        <img src="pictures/monutain_01.png" id="m1">
+        <img src="pictures/trees_02.png" id="t2">
+        <img src="pictures/monutain_02.png" id="m2">
+        <img src="pictures/trees_01.png" id="t1">
+        <img src="pictures/man.png" id="man">
+        <img src="pictures/plants.png" id="plants">
+        
+
+    </section>
+    <section class="sec">
+    <h2>Anka Website</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, saepe. Recusandae id laborum quisquam officiis reprehenderit, ipsam velit quibusdam sit, architecto quidem hic incidunt ab beatae accusantium, ut eum aspernatur ex non nihil voluptates? Illum dolore consequatur nulla accusantium dignissimos enim ipsam nihil perspiciatis voluptatibus iure optio ipsa velit eum quis tenetur ut odit, unde ducimus facilis ullam dolorum amet voluptatum modi cum. Sequi voluptate fuga inventore commodi sint, ex temporibus tempore saepe nemo, provident earum odit dolorem quasi, quod consequatur recusandae doloremque eum atque. Similique dolor, fuga minus aliquid incidunt molestiae rerum. Ratione a aperiam sint voluptatum <br><br> neque, amet, architecto officia quam est repellat molestiae fugit. Debitis architecto doloremque eligendi fugit nisi quos qui amet corporis adipisci deleniti exercitationem vero, inventore repellat repellendus laborum? Porro tempora qui facilis ducimus nisi optio eaque ad explicabo! Voluptatibus, quidem. Temporibus fugit quam dolor perferendis dolore debitis doloribus saepe! Animi quam ut velit, blanditiis quis sint. Voluptatem dicta totam doloremque ducimus eligendi facilis minima sit, aperiam officiis placeat quibusdam magni culpa eum assumenda, fugit voluptates nihil? Sapiente quaerat veritatis sunt illum laboriosam quam numquam perferendis optio, porro architecto voluptate vitae error. Laudantium consequuntur autem corporis eveniet quas praesentium mollitia, labore cupiditate quisquam placeat impedit vel et deserunt, excepturi voluptas in consequatur! Magni id, et facere doloribus maxime voluptatem saepe nihil ex perspiciatis distinctio error fuga, culpa unde asperiores provident placeat iste delectus officia quae omnis. Similique, mollitia ullam labore quas accusamus eveniet, eos ex ipsam commodi cupiditate voluptas necessitatibus ad magni error? Deleniti impedit incidunt vel repudiandae quasi maiores praesentium suscipit voluptas adipisci iusto repellat est at aspernatur atque, quaerat natus ab amet aliquam!<br><br> Labore incidunt quis, at nam rem modi voluptates temporibus quasi veritatis magni quas harum, dolores, amet reiciendis perspiciatis dignissimos molestias deserunt voluptate quae? Quam autem eveniet consequatur quas fugiat labore vel reiciendis minus esse itaque iste soluta odit rem inventore nam, provident unde minima beatae mollitia dignissimos enim quod. Blanditiis odio veritatis placeat sequi itaque sit voluptas cum! Dolorem hic natus officiis nostrum maxime perspiciatis, saepe perferendis praesentium corrupti quae nemo accusantium, illo ad veritatis amet officia doloribus, mollitia eius nulla. Tempore laudantium alias, reprehenderit nostrum explicabo maxime dolore aperiam hic praesentium perferendis excepturi neque saepe possimus voluptates! Fugit quidem aliquam deserunt nulla eligendi dolores debitis incidunt ducimus, unde atque nisi repudiandae, voluptatum, at veritatis quibusdam. Minima quas illo perferendis nostrum voluptate dolorum laboriosam minus voluptas asperiores temporibus porro accusantium voluptatibus officiis quae dolore commodi architecto ratione aperiam, natus<br><br> fugiat iure voluptatem. Ratione magnam adipisci mollitia laborum excepturi quae ad at iusto? Eum laudantium quas saepe illo praesentium voluptates animi odio omnis beatae vero totam nemo suscipit excepturi fugit atque ab dolore nesciunt voluptatibus, voluptas placeat repellat aliquam ratione corrupti! Animi quisquam ipsum doloribus sequi ut at quas facere necessitatibus in placeat dignissimos earum labore ratione dolor vitae, eaque explicabo maxime. Neque facere libero molestias? Aliquid inventore cum adipisci, maiores suscipit iure corporis debitis odio culpa placeat eveniet exercitationem quidem sunt magni vel doloremque, quibusdam assumenda eaque quasi.</p>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script>
+    gsap.from("#m1",{
+        scrollTrigger: {
+            scrub: true
+        },
+        y:100
+    })
+    gsap.from("#m2",{
+        scrollTrigger: {
+            scrub: true
+        },
+        y:50
+    })
+    gsap.from("#t2",{
+        scrollTrigger: {
+            scrub: true
+        },
+        x:-50
+    })
+    gsap.from("#t1",{
+        scrollTrigger: {
+            scrub: true
+        },
+        x:50
+    })
+    gsap.from("#man",{
+        scrollTrigger: {
+            scrub: true
+        },
+        x:-170
+    })
+    gsap.from("#plants",{
+        scrollTrigger: {
+            scrub: true
+        },
+        x:-50
+    })
+    gsap.from("#text",{
+        scrollTrigger: {
+            scrub: true
+        },
+        x:500
+    })
+</script>
+</body>
+</html>
